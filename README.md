@@ -5,7 +5,7 @@
 This is a collection of my own personal [dotfiles](http://dotfiles.github.io/)
 that I've decided to share publicly so that others may benefit from them.
 
-These dotfiles are deployed using [dotfiles-framework](https://github.com/zoni/dotfiles-framework).
+These dotfiles are deployed using [dotfiles-framework](https://github.com/SvenNederhoff/dotfiles-framework).
 
 ------------------------------------------------------------------------------
 
