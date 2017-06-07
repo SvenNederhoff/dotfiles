@@ -116,7 +116,7 @@ if [ $PASSPHRASE_COUNT -eq 0 ]; then
 	fi
 fi
 
-PASSPHRASES=$(xkcdpass --numwords "$WORDCOUNT" --count "$PASSPHRASE_COUNT" --wordfile "$WORDFILE" --delimiter "$DELIMITER" --valid-chars '[A-Za-z0-9]' --min 1 --max 15)
+PASSPHRASES=$(xkcdpass --numwords="$WORDCOUNT" --count="$PASSPHRASE_COUNT" --wordfile="$WORDFILE" --delimiter="$DELIMITER" --valid-chars='[A-Za-z0-9]' --min 1 --max 15)
 
 if [ $LOWERCASE -eq 1 ]; then
 	PASSPHRASES=$(echo "$PASSPHRASES" | tr '[:upper:]' '[:lower:]')
