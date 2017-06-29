@@ -6,6 +6,8 @@ func! WordProcessorMode()
 endfu
 com! WP call WordProcessorMode()
 
+plugin filetype on
+
 set nocompatible
 call plug#begin('~/.vim/plugged')
 
@@ -23,6 +25,7 @@ Plug 'tpope/vim-eunuch'
 Plug 'vim-scripts/SearchComplete'
 Plug 'vim-scripts/YankRing.vim'
 Plug 'vim-syntastic/syntastic'
+Plug 'chrisbra/csv.vim'
 
 source ~/.vim/formatting.vim
 source ~/.vim/general.vim
