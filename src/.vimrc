@@ -6,8 +6,6 @@ func! WordProcessorMode()
 endfu
 com! WP call WordProcessorMode()
 
-plugin filetype on
-
 set nocompatible
 call plug#begin('~/.vim/plugged')
 
